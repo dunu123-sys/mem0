@@ -1,0 +1,21 @@
+# Mem0 Bridge — Local State & Configuration
+
+# Local state (never commit)
+mem0_state.db
+mem0_state.db-*
+*.sqlite
+*.sqlite3
+
+# Environment secrets (never commit)
+.env
+.env.local
+
+# Logs
+*.log
+_*.py
+
+# Temporary files
+*.tmp
+*.bak
+__pycache__/
+*.pyc
