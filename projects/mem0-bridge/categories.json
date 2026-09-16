@@ -1,1 +1,28 @@
-{"categories":[{"name":"technical","description":"Technical knowledge, code, systems, tooling, configuration, or engineering facts."},{"name":"personal","description":"Personal preferences, tastes, habits, relationships, or personal details about a person."},{"name":"project_status","description":"State, progress, decisions, milestones, or TODOs about an active project or workflow."},{"name":"billing","description":"Payments, invoices, subscriptions, pricing, costs, or other financial/billing matters."},{"name":"contacts","description":"Names, roles, emails, phone numbers, or other contact/identity information about people."},{"name":"misc","description":"Anything that does not clearly fit the other categories."}]}
+{
+  "categories": [
+    {
+      "name": "technical",
+      "description": "Technical knowledge, code, systems, tooling, configuration, or engineering facts."
+    },
+    {
+      "name": "personal",
+      "description": "Personal preferences, tastes, habits, relationships, or personal details about a person."
+    },
+    {
+      "name": "project_status",
+      "description": "State, progress, decisions, milestones, or TODOs about an active project or workflow."
+    },
+    {
+      "name": "billing",
+      "description": "Payments, invoices, subscriptions, pricing, costs, or other financial/billing matters."
+    },
+    {
+      "name": "contacts",
+      "description": "Names, roles, emails, phone numbers, or other contact/identity information about people."
+    },
+    {
+      "name": "misc",
+      "description": "Anything that does not clearly fit the other categories."
+    }
+  ]
+}

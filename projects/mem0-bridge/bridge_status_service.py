@@ -25,11 +25,13 @@ import win32serviceutil
 import win32event
 import servicemanager
 
+
 BRIDGE_DIR = os.path.dirname(os.path.abspath(__file__))
 SIDECAR = os.path.join(BRIDGE_DIR, "bridge_status_server.py")
 PYTHONW = r"C:\Python314\pythonw.exe"
 if not os.path.exists(PYTHONW):
     PYTHONW = "pythonw"
+
 
 class BridgeStatusService(win32serviceutil.ServiceFramework):
     _svc_name_ = "Mem0BridgeStatus"
@@ -83,6 +85,7 @@ class BridgeStatusService(win32serviceutil.ServiceFramework):
             rc = win32event.WaitForSingleObject(self.hWaitStop, 2000)
             if rc == win32event.WAIT_OBJECT_0:
                 return
+
 
 if __name__ == "__main__":
     win32serviceutil.HandleCommandLine(BridgeStatusService)
